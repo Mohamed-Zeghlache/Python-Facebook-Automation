@@ -9,7 +9,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 
 
 fb_post = 'facebook_post_link'
-email = 'emai'
+email = 'email'
 motDePass = 'password'
 groups_file = 'file.txt'
 
