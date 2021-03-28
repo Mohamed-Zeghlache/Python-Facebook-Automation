@@ -84,7 +84,7 @@ with open(groups_file, 'r', encoding='utf-8') as file:
 
         try:
             click_group = WebDriverWait(driver, 10).until(
-                EC.presence_of_element_located((By.XPATH , "//div[@class='glvd648r']//div[@role='button']"))
+                EC.presence_of_element_located((By.XPATH , "//div[@class='b20td4e0 muag1w35']//div[@role='button']"))
             )
             click_group.click()
         except:
